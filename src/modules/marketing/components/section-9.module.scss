@@ -1,0 +1,26 @@
+.wrapper {
+    width: 100vw;
+    background: #eaedf0;
+
+    font-family: 'Montserrat';
+
+    .innerWrapper {
+        padding: 0 0 40px;
+        display: flex;
+        justify-content: space-between;
+
+        .input {
+            border: none;
+            background: #EAEDF0;
+            border-bottom: 1px solid #000000;
+            padding-bottom: 5px;
+            opacity: 0.6;
+
+            &:focus{
+                outline: none;
+                border: none;
+                border-bottom: 1px solid #000000;
+            }
+        }
+    }
+}

@@ -1,0 +1,14 @@
+.wrapper {
+    position: relative;
+    
+    background-image: url('../../../assets/images/section-2-bg.png'), linear-gradient(0, #EAEDF0 0%, #EAEDF0 100%);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+
+    .content {
+        padding: 50px 0 250px;
+        display: flex;
+        justify-content: space-between;
+    }
+}

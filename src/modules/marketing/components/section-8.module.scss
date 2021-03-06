@@ -1,0 +1,48 @@
+.wrapper {
+    width: 100vw;
+    font-family: 'Roboto';
+
+    background-image: url('../../../assets/images/footer-bg.png');
+    // background-size: cover;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+
+    .innerWrapper {
+        padding: 100px 70px 270px;
+
+        .content {
+            max-width: 100%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+
+            display: flex;
+
+            .box {
+                position: relative;
+                font-size: 16px;
+                line-height: 24px;
+                padding: 36px 36px 60px;
+                width: 450px;
+                background: #F9F9F9;
+                box-shadow: 6px 6px 40px rgba(0, 0, 0, 0.2);
+                border-radius: 10px;
+
+                .img {
+                    position: absolute;
+                    left: 50%;
+                    bottom: 0;
+                    transform: translate(-50%, 50%);
+
+                    border-radius: 50%;
+                }
+            }
+        }
+
+        .content::-webkit-scrollbar {
+            display: none;
+        } 
+    }
+}

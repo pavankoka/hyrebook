@@ -1,0 +1,153 @@
+.wrapper {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    font-family: 'Comfortaa';
+
+    p, h1, h2, h3, h4 {
+        margin: 0;
+        padding: 0;
+    }
+
+    
+    .section {
+        width: calc(100vw - 550px);
+        padding: 0 275px;
+    }
+
+    .footerSection {
+        width: calc(100vw - 300px);
+        padding: 0 150px;
+    }
+
+    .header1 {
+        font-size: 64px;
+        line-height: 70px;
+    }
+
+    .header4 {
+        font-size: 48px;
+        line-height: 54px;
+    }
+
+    .text1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .text3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .text4 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .text5 {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .text6 {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .section1Box {
+        width: 530px;
+        margin-right: 20px;
+    }
+
+    .section1Text {
+        width: auto;
+    }
+
+    .commonSectionTextLeft {
+        margin-left: 50px;
+    }
+
+    &.lowerResolution {
+        .section {
+            width: calc(100vw - 260px);
+            padding: 0 130px;
+        }
+    
+        .header1 {
+            font-size: 48px;
+            line-height: 54px;
+        }
+    
+        .header4 {
+            font-size: 36px;
+            line-height: 40px;
+        }
+    
+        .text1 {
+            font-size: 28px;
+            line-height: 36px;
+        }
+    
+        .text3 {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    
+        .text4 {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    
+        .text5 {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    
+        .text6 {
+            font-size: 16px;
+            line-height: 20px;
+        }
+
+        .section1Box {
+            width: 450px;
+            margin-right: 10px;
+        }
+
+        .section1Text {
+            width: 412px;
+        }
+
+        .section4Images {
+            width: 140px;
+        }
+
+        .section4Dashes {
+            width: 150px;
+        }
+
+        .commonSectionTextLeft {
+            margin-left: 25px;
+        }
+
+        .commonSectionTextRight {
+            margin-left: 100px;
+        }
+
+        .footerSection {
+            width: calc(100vw - 150px);
+            padding: 0 75px;
+        }
+    }
+}
+
+.wrapper::-webkit-scrollbar {
+    display: none;
+} 
